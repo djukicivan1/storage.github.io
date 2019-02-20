@@ -1,0 +1,1579 @@
+header .moving {
+    border-right: solid grey 2px;
+    height: 50px;
+}
+
+.address {
+    margin-left: 70px;
+}
+
+header {
+    padding: 20px;
+}
+
+header img {
+    margin-top: -10px;
+
+}
+
+header h4 {
+    color: #05001a;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: normal;
+}
+
+header h5 {
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Asap', sans-serif;
+    font-size: 17px;
+}
+
+header p {
+    margin-top: -8px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+}
+
+.fa-phone {
+    transform: rotate(90deg);
+    color: blue;
+    margin-right: 8px;
+}
+
+.fa-map-marker-alt {
+    color: blue;
+    margin-right: 8px;
+}
+
+.nav-item {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 19px;
+    font-size: 13px;
+    text-transform: uppercase;
+    width: 120px;
+}
+
+#navbar.fixedattop {
+    position: fixed;
+    top: 0px;
+}
+
+#navbar {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+}
+
+#content {
+    margin: 0px;
+}
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color:deepskyblue;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+    height: 60px;
+    width: 50px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    height: 80px;
+    margin-top: -15px;
+    position: fixed;
+    top: 0;
+}
+
+nav li {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+nav p {
+    margin-top: 22px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 19px;
+    font-size: 13px;
+    text-transform: uppercase;
+    width: 90px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    cursor: pointer;
+    height: 80px;
+}
+
+nav li a:hover {
+    color: white;
+    background-color: #14b5f0;
+}
+
+nav i:hover {
+    color: white;
+    background-color: #14b5f0;
+}
+
+.navbar-collapse {
+    justify-content: space-around;
+}
+
+.navbar {
+    background-color: #0c3c8e;
+    ;
+}
+
+nav i {
+    font-size: 15px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    border-style: none;
+    color: #0c3c8e;
+    background-color: #ffffff;
+    border-color: transparent;
+    text-align: center;
+    padding: 5px;
+}
+
+nav .social {
+    text-align: right;
+
+}
+
+.prvi {
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('radnici.jpg');
+    height: auto;
+    padding-bottom: 150px;
+}
+
+.paragraf1 {
+    padding-left: 80px;
+}
+
+h4 span {
+    color: #0c3c8e;
+
+}
+
+.prvi h4 {
+    font-size: 19px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Asap', sans-serif;
+    color: #05001a;
+    margin-top: 100px;
+}
+
+.prvi h1 {
+    font-size: 65px;
+    line-height: 1.1;
+    letter-spacing: 0px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Asap', sans-serif;
+    color: #05001a;
+
+}
+
+.prvi p {
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #05001a;
+}
+
+.dugme1 {
+    font-family: 'Asap', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    background-color: #0c3c8e;
+    border-color: transparent;
+    font-size: 14px;
+    cursor: pointer;
+    height: 60px;
+    border-radius: 0px;
+    width: 150px;
+}
+
+.dugme1:hover {
+    color: white;
+    background-color: #14b5f0;
+    border-color: transparent;
+}
+
+.dugme2 {
+    font-family: 'Asap', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    background-color: #0c3c8e;
+    border-color: transparent;
+    font-size: 14px;
+    cursor: pointer;
+    height: 60px;
+    border-radius: 0px;
+    width: 150px;
+    background-color: #14b5f0;
+    color: white;
+
+}
+
+.dugme2:hover {
+    color: white;
+    background-color: #0c3c8e;
+    border-color: transparent;
+}
+
+.drugi {
+    height: auto;
+
+}
+
+.radnica {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    max-width: 600px;
+    height: auto;
+    width: 100%;
+}
+
+.drugi h1 {
+    font-size: 45px;
+    line-height: 1.1;
+    letter-spacing: 0px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Asap', sans-serif;
+    color: #05001a;
+    padding-top: 90px;
+}
+
+.drugi p {
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #5c5858;
+    margin-right: 150px;
+}
+
+.drugi .dugme1 {
+    margin-left: 0px;
+}
+
+.drugi i {
+    margin-right: 5px;
+    color: #14b5f0;
+}
+
+.treci {
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('kutije.jpg');
+    height: 30em;
+}
+
+.treci p {
+    font-size: 20px;
+}
+
+.treci h5 {
+    font-size: 22px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Asap', sans-serif;
+    color: #05001a;
+    margin-top: 130px;
+}
+
+.treci h1 {
+    font-size: 55px;
+    line-height: 1.1;
+    letter-spacing: 0px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Asap', sans-serif;
+    color: #0c3c8e;
+}
+
+.treci h1:hover {
+    color: #14b5f0;
+    cursor: pointer;
+}
+
+.paragraf2 {
+    padding-left: 0px;
+}
+
+.cetvrti img {
+    height: 450px;
+    min-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+}
+
+.cetvrti h1 {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 45px;
+    line-height: 1.1;
+    letter-spacing: 0px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Asap', sans-serif;
+    color: #05001a;
+}
+
+.card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tekst {
+    text-align: center;
+    width: 380px;
+    margin-left: 15px;
+}
+
+.cetvrti h4 {
+    font-size: 22px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Asap', sans-serif;
+    color: #05001a;
+    text-align: center;
+}
+
+.cetvrti p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #5c5858;
+    margin-top: -10px;
+}
+
+.cetvrti i {
+    font-size: 15px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    border-style: none;
+    color: white;
+    background-color: #0c3c8e;
+    border-color: transparent;
+    text-align: center;
+    padding: 5px;
+}
+
+.cetvrti .social {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.cetvrti i:hover {
+    color: white;
+    background-color: #14b5f0;
+}
+
+.card {
+    border-color: transparent;
+}
+
+.peti {
+    background-image: url('prvidio.jpg'), url('drugidio.jpg');
+    background-position: left, right bottom;
+    background-repeat: no-repeat, repeat;
+    height: auto;
+    background-size: cover;
+
+}
+
+.peti h3 {
+    font-size: 22px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Asap', sans-serif;
+    color: #05001a;
+    text-align: left;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.peti p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #5c5858;
+
+}
+
+.peti h1 {
+    text-align: left;
+    padding-top: 200px;
+    font-size: 45px;
+    line-height: 1.1;
+    letter-spacing: 0px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Asap', sans-serif;
+    color: white;
+}
+
+.peti i {
+    color: #14b5f0;
+    margin-left: -70px;
+    position: absolute;
+}
+
+.peti2 {
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.peti2 p {
+    font-size: 1.2vw;
+    margin-right: 60px;
+    padding-left: 60px;
+}
+
+.peti2 h3 {
+    font-size: 1.5vw;
+}
+
+.peti2 i {
+    font-size: 3.2vw;
+}
+
+.peti3 {
+    background-image: url('drugidio.jpg');
+    width: 100%;
+    height: auto;
+}
+
+.peti3 p {
+    font-size: 1.3vw;
+    color: white;
+    margin-right: 120px;
+}
+
+.peti3 h1 {
+    font-size: 3vw;
+}
+
+.tek {
+    margin-left: 80px;
+}
+
+.peti button {
+    margin-left: 80px;
+}
+
+.sesti {
+    height: auto;
+    width: 100%;
+}
+
+.sesti img {
+    margin-top: 50px;
+    height: auto;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sesti h3 {
+    font-size: 22px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Asap', sans-serif;
+    color: #05001a;
+    text-align: center;
+}
+
+.sesti p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #5c5858;
+    margin-top: -10px;
+    color: #14b5f0;
+    padding-bottom: 60px;
+}
+
+.sesti h1 {
+    font-size: 45px;
+    line-height: 1.1;
+    letter-spacing: 0px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Asap', sans-serif;
+    color: #05001a;
+    padding-top: 90px;
+    text-align: center;
+}
+
+.sedmi {
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('par.jpg');
+    height: auto;
+}
+
+.sedmi h1 {
+    font-size: 45px;
+    line-height: 1.1;
+    letter-spacing: 0px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Asap', sans-serif;
+    color: #05001a;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    text-align: left;
+    margin-left: 70px;
+}
+
+.sedmi p {
+    font-size: 19px;
+}
+
+.sedmi h3 {
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Asap', sans-serif;
+    color: #05001a;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    margin-left: 70px;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+}
+
+.sedmi h2 {
+    font-size: 100px;
+    line-height: 1;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #14b5f0;
+}
+
+.carousel-control-prev {
+    background-color: #0c3c8e;
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    opacity: 2;
+    position: relative;
+}
+
+.carousel-control-next {
+    background-color: #0c3c8e;
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    opacity: 2;
+    position: relative;
+    margin-left: 80px;
+    margin-top: -45px;
+}
+
+.carousel-control-next:hover {
+    background-color: #14b5f0;
+}
+
+.carousel-control-prev:hover {
+    background-color: #14b5f0;
+}
+
+.osmi {
+    height: auto;
+    padding: 50px;
+}
+
+/* Create three columns of equal width */
+.columns {
+    width: 33.3%;
+    padding: 8px;
+    background-color: white;
+    padding: 0;
+    padding-bottom: 30px;
+    margin-top: 130px;
+    height: auto;
+}
+
+.srednja {
+    margin-top: 80px;
+}
+
+.osmi .srednja .header:hover {
+    background-color: #0c3c8e;
+}
+
+.osmi .srednja .header {
+    background-color: #14b5f0;
+}
+
+.cifra h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    padding-right: 15px;
+}
+
+.osmi .header {
+    width: 100%;
+    position: relative;
+    height: 180px;
+    background-color: #0c3c8e;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.osmi ul {
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.osmi .header:hover {
+    background-color: #14b5f0;
+}
+
+.header p {
+    color: white;
+}
+
+/* Style the list */
+.price {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background-color: white;
+    width: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: -60px;
+}
+
+.osmi i {
+    background-color: white;
+    color: #14b5f0;
+    margin-left: -25px;
+    position: absolute;
+    padding: 4px;
+}
+
+.osmi .price button {
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+/* Add shadows on hover */
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+/* List items */
+.price li {
+    padding: 13px;
+    text-align: center;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.naslov h1 {
+    font-size: 45px;
+    line-height: 1.1;
+    letter-spacing: 0px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Asap', sans-serif;
+    color: #05001a;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.deveti {
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('potpis.jpg');
+    height: auto;
+}
+
+.deveti h1 {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: 0px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Asap', sans-serif;
+    color: #05001a;
+    color: white;
+    margin-left: 78px;
+    margin-top: -20px;
+    padding-bottom: 50px;
+}
+
+.deveti h3 {
+    font-size: 22px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Asap', sans-serif;
+    color: #05001a;
+    text-align: left;
+    padding: 10px;
+    margin-left: 50px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 74px;
+}
+
+.deveti p {
+    margin-left: 85px;
+    color: white;
+}
+
+.deveti i {
+    font-size: 30px;
+    position: absolute;
+    margin-left: -40px;
+    color: #14b5f0;
+}
+
+.podaci {
+    margin-top: 130px;
+    padding-bottom: 80px;
+    width: 100%;
+    height: auto;
+}
+
+form {
+    width: 400px;
+    margin-top: -20px;
+}
+
+.forma {
+    margin-top: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 350px;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #434f53;
+}
+
+footer p {
+    color: white;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+footer i {
+    font-size: 15px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    border-style: none;
+    color: #0c3c8e;
+    background-color: #ffffff;
+    border-color: transparent;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+footer .social {
+    max-width: 190px;
+    float: right;
+}
+
+label {
+    color: white;
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+
+    .prvi h1 {
+        font-size: 32px;
+    }
+
+    .prvi .dugme1 {
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+
+    .prvi .dugme2 {
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+
+    .drugi h1 {
+        color: black;
+        font-size: 3vw;
+        margin-top: -35px;
+    }
+
+    .drugi p {
+        margin-right: 0px;
+        font-size: 15px;
+    }
+
+    .drugi .strik {
+        margin-top: -22px;
+    }
+
+    .drugi .dugme1 {
+        margin-top: -19px
+    }
+
+    .treci {
+        height: auto;
+        padding: 15px;
+
+    }
+
+    .treci h5 {
+        margin-top: 85px;
+
+    }
+
+    .treci h1 {
+        font-size: 25px;
+    }
+
+    .cetvrti h1 {
+        font-size: 25px;
+    }
+
+    .cetvrti img {
+        padding: 15px;
+        height: auto;
+        width: 100%;
+    }
+
+    .cetvrti .social {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    .peti {
+        height: auto;
+    }
+
+    .peti2 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .peti2 h3 {
+        font-size: 15px;
+    }
+
+    .peti i {
+        font-size: 30px;
+        margin-left: -45px;
+    }
+
+    .peti2 p {
+        font-size: 13px;
+        margin: 0px;
+        margin-top: -40px;
+    }
+
+    .peti3 .tek {
+        margin-left: 30px
+    }
+
+    .peti3 button {
+        height: auto;
+        width: auto;
+    }
+
+    .peti3 h1 {
+        font-size: 25px;
+        margin-top: -20px;
+
+    }
+
+    .peti3 p {
+        font-size: 14px;
+        margin: 0px;
+    }
+
+    .sesti h1 {
+        font-size: 4vw;
+    }
+
+    .sesti h3 {
+        font-size: 2.3vw;
+    }
+
+    .sesti p {
+        font-size: 2vw;
+        line-height: 18px;
+    }
+
+    .carousel-control-prev {
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-top: 40px;
+        position: relative;
+    }
+
+    .carousel-control-next {
+        margin-left: 90px;
+        margin-top: -45px;
+        position: relative;
+    }
+
+    .osmi li {
+        text-align: center;
+    }
+
+    .osmi .price {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .osmi .price button {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .deveti .podaci {
+        width: 100%;
+    }
+
+    .deveti form {
+        width: 300px;
+        margin-left: -50px;
+    }
+
+    .social {
+        margin-left: 80px;
+    }
+
+    .navbar-toggler {
+        margin-top: -13px;
+        position: absolute;
+        font-size: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    nav {
+        height: 100px;
+    }
+
+    .navbar-collapse p {
+        color: black;
+    }
+
+    .navbar-collapse {
+        background-color: white;
+        margin-top: 420px;
+        z-index: 999;
+    }
+
+    nav .social {
+        position: absolute;
+        padding: 10px;
+        margin-left: 350px;
+    }
+
+    .navbar-collapse p {
+        color: black;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .address {
+        margin-left: 0px;
+    }
+
+    .paragraf1 {
+        margin-left: -30px;
+    }
+
+    .prvi p {
+        font-size: 17px;
+    }
+
+    .prvi .dugme1 {
+        margin: 0px;
+    }
+
+    .prvi h1 {
+        font-size: 42px;
+    }
+
+    .drugi {
+        padding: 20px;
+    }
+
+    .drugi h1 {
+        color: black;
+        font-size: 25px;
+    }
+
+    .drugi p {
+        margin-right: 0px;
+    }
+
+    .treci {
+        height: auto;
+        padding: 15px;
+
+    }
+
+    .treci h5 {
+        margin-top: 0px;
+
+    }
+
+    .treci h1 {
+        font-size: 25px;
+    }
+
+    .cetvrti h1 {
+        font-size: 35px;
+    }
+
+    .cetvrti img {
+        padding: 20px;
+        height: 400px;
+    }
+
+    .card {
+        width: 400px;
+    }
+
+    .peti {
+        height: auto;
+        background-position: center 0px;
+    }
+
+    .peti2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .peti2 h3 {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .peti2 p {
+        font-size: 15px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .peti3 h1 {
+        font-size: 30px;
+        margin-top: -165px;
+        margin-left: 0px;
+    }
+
+    .peti3 button {
+        margin: 0px;
+        height: 40px;
+        width: 120px
+    }
+
+    .peti3 {
+        padding-bottom: 40px;
+    }
+
+    .peti3 p {
+        margin: 0px;
+        font-size: 14px;
+    }
+
+    .sesti img {
+        height: 200px;
+        width: 300px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    .sedmi {
+        padding: 20px;
+        height: auto;
+    }
+
+    .sedmi h1 {
+        font-size: 35px;
+        margin: 0px;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+    .sedmi h2 {
+        font-size: 45px;
+        margin-top: 50px;
+    }
+
+    .sedmi h3 {
+        font-size: 18px;
+        line-height: 0.5px;
+    }
+
+    .carousel-inner {
+        margin-left: -70px;
+        margin-top: 0px;
+    }
+
+    .carousel-control-prev {
+        margin-bottom: 0px;
+        margin-left: -70px;
+        margin-top: 40px;
+        position: relative;
+    }
+
+    .carousel-control-next {
+        margin-left: 20px;
+        margin-top: -45px;
+        position: relative;
+    }
+
+    .osmi .columns {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .osmi .columns h2 {
+        text-align: center;
+    }
+
+    .osmi h1 {
+        font-size: 35px;
+        padding-bottom: 40px;
+    }
+
+    .osmi .price button {
+        margin-right: 20px;
+    }
+
+    form {
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .deveti .forma {
+        margin-top: 0px;
+        padding-bottom: 40px;
+        width: 500px;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navbar-toggler {
+        margin-top: -13px;
+        position: absolute;
+        font-size: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    nav {
+        height: 100px;
+    }
+
+    .navbar-collapse p {
+        color: black;
+    }
+
+    .navbar-collapse {
+        background-color: white;
+        margin-top: 420px;
+        z-index: 999;
+    }
+
+    nav .social {
+        position: absolute;
+        padding: 10px;
+        margin-left: 350px;
+        margin-right: auto;
+    }
+
+    .navbar-collapse p {
+        color: black;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .address {
+        margin-left: 0px;
+    }
+
+    .paragraf1 {
+        margin-left: -30px;
+    }
+
+    .prvi p {
+        font-size: 17px;
+    }
+
+    .prvi .dugme1 {
+        margin: 0px;
+    }
+
+    .prvi .dugme2 {
+        margin: 0px;
+    }
+
+    .prvi h1 {
+        font-size: 32px;
+    }
+
+    .drugi h1 {
+        color: black;
+        font-size: 25px;
+    }
+
+    .treci {
+        height: auto;
+        padding: 15px;
+    }
+
+    .treci p {
+        font-size: 17px;
+    }
+
+    .treci h5 {
+        font-size: 18px;
+        margin: 0px
+    }
+
+    .treci h1 {
+        font-size: 25px;
+    }
+
+    .cetvrti h1 {
+        font-size: 25px;
+    }
+
+    .cetvrti img {
+        padding: 15px;
+        height: auto;
+    }
+
+    .peti {
+        height: auto;
+        background-position: center 0px;
+        background-size: contain 600px;
+    }
+
+    .peti2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .peti2 i {
+        font-size: 6vw;
+    }
+
+    .peti2 h3 {
+        font-size: 18px;
+        margin-top: 30px
+    }
+
+    .peti2 p {
+        font-size: 15px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .peti3 h1 {
+        font-size: 30px;
+        margin-top: -155px;
+        margin-left: 0px;
+    }
+
+    .peti3 button {
+        margin: 0px;
+    }
+
+    .peti3 p {
+        margin: 0px;
+        font-size: 15px;
+    }
+
+    .sesti h1 {
+        font-size: 30px;
+    }
+
+    .sesti img {
+        height: auto;
+        width: 300px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    .sedmi {
+        padding: 20px;
+        height: auto;
+    }
+
+    .sedmi h1 {
+        font-size: 25px;
+        margin: 0px;
+        margin-top: 20px;
+    }
+
+    .sedmi h2 {
+        font-size: 45px;
+    }
+
+    .sedmi h3 {
+        font-size: 18px;
+        line-height: 0.5px;
+    }
+
+    .sedmi p {
+        font-size: 20px;
+    }
+
+    .carousel-inner {
+        margin-left: -70px;
+        margin-top: 20px;
+    }
+
+    .carousel-control-prev {
+        margin-bottom: 0px;
+        margin-left: -70px;
+        margin-top: 40px;
+        position: relative;
+    }
+
+    .carousel-control-next {
+        margin-left: 20px;
+        margin-top: -44px;
+        position: relative;
+    }
+
+    .osmi .columns {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .osmi .columns h2 {
+        text-align: center;
+    }
+
+    .osmi h1 {
+        font-size: 35px;
+        padding-bottom: 40px;
+    }
+
+    .osmi .price button {
+        margin-right: 20px;
+    }
+
+    .deveti form {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-bottom: 40px;
+        width: 300px;
+    }
+
+    footer {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .social {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-bottom: 30px;
+    }
+
+    .navbar-toggler {
+        margin-top: -13px;
+        position: absolute;
+        font-size: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    nav {
+        height: 100px;
+    }
+
+    .navbar-collapse p {
+        color: black;
+        margin-left: 15px;
+    }
+
+    .navbar-collapse {
+        background-color: white;
+        margin-top: 420px;
+        z-index: 999;
+    }
+
+    nav .social {
+        position: absolute;
+        margin-left: 100px;
+        padding: 10px;
+        width: 180px;
+        height: auto;
+    }
+}
